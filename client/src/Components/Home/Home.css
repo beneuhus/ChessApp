@@ -1,0 +1,187 @@
+#homeComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 14vh;
+}
+
+#homeMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 100%;
+    height: 76vh;
+    background-color: #9e2c2c;
+}
+
+#chessNewsSection {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    height: 62vh;
+    width: fit-content;
+    max-width: 30rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 0.3rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+#chessNewsSection::-webkit-scrollbar {
+    width: 0.25rem;
+    
+}
+  
+#chessNewsSection::-webkit-scrollbar-thumb {
+    background-color: rgba(129, 129, 129, 0.7);
+    border-radius: 0.1rem;
+    
+}
+  
+#chessNewsSection::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+#chessNewsSection h4 {
+    color: white;
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-bottom: 10px;
+   
+}
+
+#playChessSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+
+#quickStartContainer {
+    width: 100%;
+}
+
+.puzzleStatsBtn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#puzzleImage {
+    max-width: 85%;
+    padding-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 12vh;
+}
+
+
+@media (min-width: 320px) {
+.lpools {
+    font-size: calc( 14px + 11 * ((100vw - 320px) / 880) );
+}
+}
+.lpools > div {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+.lpools{
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3);
+    grid-gap: 9px;
+    padding: 9px;
+    height: 250px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.lpools .perf::before{
+    content: "\A";
+  white-space: pre;
+}
+.lobby__box,
+.lobby__spotlights,
+.ublog-post-card,
+.lobby__support a,
+.lobby__app__content {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    
+}
+.lobby__streams .more,
+.timeline .more,
+.timeline .entry,
+.lobby__streams .stream,
+.hooks__list th,
+.lpools,
+.ublog-post-card__intro,
+.tabs-horiz span {
+    font-family: "Roboto", Sans-Serif;
+    flex: autos;
+    
+}
+
+
+user agent stylesheet
+div {
+    display: block;
+    
+}
+
+
+
+
+@media (min-width: 799.3px) {
+    body {
+        --main-margin: 1vw;
+        margin-bottom: 2vmin;
+        
+        
+    }
+}
+
+
+
+
+
+html {
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    min-height: 100%;
+    color-scheme: dark;
+    font-family: "Noto Sans", Sans-Serif;
+}
+
+
+
+
+
+
